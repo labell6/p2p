@@ -48,9 +48,9 @@ $ go build -o peer
 $ mv peer ../bin (optional)
 ```
 
-## Running a single Peer node
+## Starting a Peer node
 
-To run a node for this peer network just run the binary:
+To start a node for this network just run the binary:
 
 ```
 $ ./peer
@@ -60,7 +60,7 @@ You can start a node with the following options:
 ```
 $ ./peer -n testname
 
-To specify the onscren name
+To specify the onscreen name broadcast to other peers
 
 $ ./peer -p 8999 
 
@@ -68,8 +68,7 @@ To specify the network port used.
 
 $ ./peer -i  159.8.181.148
 
-To specify the ip address of the peer
+To specify the ip address of a peer
 ```
 
-Once two peers have started on two nodes. Texted entered stdin on one 
-console will be broadcast to the other peer, and vice versa.
+Once two peers have started on different nodes. Text entered into stdin of one peer, will be broadcast to other peers.
