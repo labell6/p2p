@@ -66,9 +66,9 @@ $ ./peer -p 8999
 
 To specify the network port used.
 
-$ ./peer -i  159.8.181.148
+$ ./peer -i  159.8.181.148:8999
 
-To specify the ip address of a peer
+To specify the ip address and port of a peer
 ```
 
 Once two peers have started on different nodes. Text entered into stdin of one peer, will be broadcast to other peers.
