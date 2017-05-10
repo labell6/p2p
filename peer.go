@@ -46,7 +46,6 @@ func main() {
 	name := flag.String("n", "Surematics", "ScreenName")
 	peer := flag.String("i", "", "IP address of peer to connect to.")
 	flag.Parse()
-        *peer := *peer + ":" + *port
         
         //initialize client control handler  
 	peercontroller := NewPeerData(Peer{*name, getIp() + ":" + *port})
