@@ -49,7 +49,7 @@ func main() {
 	flag.Parse()
         
         //initialize client control handler  
-	peercontroller := NewPeerData(Peer{*name, getIp() + ":" + *port})
+	peercontroller := NewPeerData(Peer{*name, GetIp() + ":" + *port})
 	peercontroller.start()
 	
 	if len(*peer) != 0 {
@@ -61,7 +61,7 @@ func main() {
 }
 
 // Get IP of this machine
-func getIp() string {
+func GetIp() string {
     conn, err := net.Dial("udp", "8.8.8.8:80")
     if err != nil {
         return "localhost"
