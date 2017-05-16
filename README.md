@@ -73,6 +73,10 @@ To specify the ip address and port of a peer
 
 Once two peers have started on different nodes. Text entered into stdin of one peer, will be broadcast to other peers.
 
-To run the test case, use the builtin go test command. 
+Running Tests.
 
-$ go test
+To run the test case, use the builtin go test command : 
+
+$ go test -v
+
+Note the -v flag is optional

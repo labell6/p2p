@@ -1,3 +1,5 @@
+// Implementation of Tests for peer.go
+
 package main
 
 import (

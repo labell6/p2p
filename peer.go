@@ -1,3 +1,6 @@
+//Implementation of a simple peer to peer chat application using
+//the net/http package for communication.
+
 package main
 
 import (
